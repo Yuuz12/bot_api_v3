@@ -1,3 +1,8 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -6,11 +11,6 @@ __pycache__/
 dist/
 build/
 .eggs/
-
-# Virtual environment
-.venv/
-venv/
-env/
 
 # Environment variables
 .env
