@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="MIKUCHAT Bot API",
     description="MIKUCHAT 聊天机器人后端 API 系统",
-    version="2.0.0",
+    version="3.0.0",
     lifespan=lifespan,
 )
 
@@ -79,4 +79,4 @@ app.include_router(invitation.router, prefix="/api/invitation", tags=["邀请码
 
 @app.get("/")
 async def root():
-    return {"message": "MIKUCHAT Bot API v2.0", "docs": "/docs"}
+    return {"message": "MIKUCHAT Bot API v3.0", "docs": "/docs"}

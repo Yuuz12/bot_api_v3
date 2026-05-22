@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 class DatabaseSettings(BaseSettings):
